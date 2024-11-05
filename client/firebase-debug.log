@@ -1,0 +1,130 @@
+[debug] [2024-11-05T08:14:40.749Z] ----------------------------------------------------------------------
+[debug] [2024-11-05T08:14:40.751Z] Command:       /opt/homebrew/Cellar/node/22.9.0/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-11-05T08:14:40.752Z] CLI Version:   13.24.0
+[debug] [2024-11-05T08:14:40.752Z] Platform:      darwin
+[debug] [2024-11-05T08:14:40.752Z] Node Version:  v22.9.0
+[debug] [2024-11-05T08:14:40.752Z] Time:          Tue Nov 05 2024 13:44:40 GMT+0530 (India Standard Time)
+[debug] [2024-11-05T08:14:40.752Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-05T08:14:40.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-05T08:14:40.756Z] > authorizing via signed-in user (blackholeinfiverse1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/anishbarve/Desktop/Office/Task Manager/TSM-Update/client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-05T08:15:48.586Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:48.587Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:48.588Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-05T08:15:48.588Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"bhtaskmanager","name":"Blackhole Task manager"}
+[debug] [2024-11-05T08:15:50.901Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-11-05T08:15:50.901Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8263145928363085325"}
+[debug] [2024-11-05T08:15:50.903Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:50.903Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:50.903Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 [none]
+[debug] [2024-11-05T08:15:52.533Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 200
+[debug] [2024-11-05T08:15:52.533Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 {"name":"operations/cp.8263145928363085325"}
+[debug] [2024-11-05T08:15:53.035Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-05T08:15:53.037Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:53.037Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:53.037Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 [none]
+[debug] [2024-11-05T08:15:53.663Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 200
+[debug] [2024-11-05T08:15:53.664Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 {"name":"operations/cp.8263145928363085325","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-11-05T08:15:54.665Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-11-05T08:15:54.666Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:54.667Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:54.667Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 [none]
+[debug] [2024-11-05T08:15:55.296Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 200
+[debug] [2024-11-05T08:15:55.297Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8263145928363085325 {"name":"operations/cp.8263145928363085325","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"278873674096","projectId":"bhtaskmanager","lifecycleState":"ACTIVE","name":"Blackhole Task manager","createTime":"2024-11-05T08:15:52.543537Z"}}
+[debug] [2024-11-05T08:15:55.299Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:55.299Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:55.299Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager:addFirebase [none]
+[debug] [2024-11-05T08:15:57.758Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager:addFirebase 200
+[debug] [2024-11-05T08:15:57.758Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager:addFirebase {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy"}
+[debug] [2024-11-05T08:15:57.758Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:57.758Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:15:57.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy [none]
+[debug] [2024-11-05T08:16:00.000Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy 200
+[debug] [2024-11-05T08:16:00.000Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy"}
+[debug] [2024-11-05T08:16:00.501Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-05T08:16:00.501Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:00.502Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:00.502Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy [none]
+[debug] [2024-11-05T08:16:01.003Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy 200
+[debug] [2024-11-05T08:16:01.004Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy"}
+[debug] [2024-11-05T08:16:02.005Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-05T08:16:02.006Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:02.006Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:02.007Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy [none]
+[debug] [2024-11-05T08:16:02.876Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy 200
+[debug] [2024-11-05T08:16:02.877Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy"}
+[debug] [2024-11-05T08:16:04.878Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-05T08:16:04.878Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:04.879Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:04.879Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy [none]
+[debug] [2024-11-05T08:16:06.482Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy 200
+[debug] [2024-11-05T08:16:06.482Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy"}
+[debug] [2024-11-05T08:16:10.484Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-11-05T08:16:10.485Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:10.485Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:10.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy [none]
+[debug] [2024-11-05T08:16:11.886Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy 200
+[debug] [2024-11-05T08:16:11.887Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy {"name":"operations/workflows/MDY2NDJjODUtODkyYy00Y2I1LWI0ODQtNjUxMjY1NGQ3ZWQy","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"bhtaskmanager","projectNumber":"278873674096","displayName":"Blackhole Task manager","name":"projects/bhtaskmanager","resources":{"hostingSite":"bhtaskmanager"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: bhtaskmanager
+[info]    - Project Name: Blackhole Task manager
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/bhtaskmanager/overview
+[info] i  Using project bhtaskmanager (Blackhole Task manager) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-05T08:16:11.901Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:11.901Z] Checked if tokens are valid: true, expires at: 1730797991405
+[debug] [2024-11-05T08:16:11.901Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager [none]
+[debug] [2024-11-05T08:16:12.806Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager 200
+[debug] [2024-11-05T08:16:12.806Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bhtaskmanager {"projectId":"bhtaskmanager","projectNumber":"278873674096","displayName":"Blackhole Task manager","name":"projects/bhtaskmanager","resources":{"hostingSite":"bhtaskmanager"},"state":"ACTIVE","etag":"1_4f3e5ab8-ae06-41be-9dd8-7ffb0a78df91"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-11-05T08:17:32.813Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-05T08:17:32.930Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-05T08:17:32.930Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.1","browserURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/anishbarve/Desktop/Office/Task Manager/TSM-Update 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=307189053&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-11-05T08:18:19.296Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-11-05T08:18:19.297Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-11-05T08:18:19.661Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-11-05T08:18:19.661Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-11-05T08:18:19.670Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-11-05T08:18:20.029Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-11-05T08:18:20.029Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"blackholeinfiverse2","id":182327419,"node_id":"U_kgDOCt4Yew","avatar_url":"https://avatars.githubusercontent.com/u/182327419?v=4","gravatar_id":"","url":"https://api.github.com/users/blackholeinfiverse2","html_url":"https://github.com/blackholeinfiverse2","followers_url":"https://api.github.com/users/blackholeinfiverse2/followers","following_url":"https://api.github.com/users/blackholeinfiverse2/following{/other_user}","gists_url":"https://api.github.com/users/blackholeinfiverse2/gists{/gist_id}","starred_url":"https://api.github.com/users/blackholeinfiverse2/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/blackholeinfiverse2/subscriptions","organizations_url":"https://api.github.com/users/blackholeinfiverse2/orgs","repos_url":"https://api.github.com/users/blackholeinfiverse2/repos","events_url":"https://api.github.com/users/blackholeinfiverse2/events{/privacy}","received_events_url":"https://api.github.com/users/blackholeinfiverse2/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"bhcoder2","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2024-09-21T08:08:53Z","updated_at":"2024-10-02T06:43:12Z","private_gists":0,"total_private_repos":2,"owned_private_repos":1,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as blackholeinfiverse2 
+[info] 
