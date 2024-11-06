@@ -37,7 +37,7 @@ type ContractInteractionDataType = {
   taskEndTime: number[];
 };
 
-const walletAddress = "0x0c0cAaea8A32A2bB2372988893aF12633A36c0Ba";
+const walletAddress = "0x50Cb8CB44A0567bCB7336de049125d7Bc28190be";
 
 const Web3Context = createContext<Web3ContextType | undefined>(undefined);
 const provider = new ethers.JsonRpcProvider(
